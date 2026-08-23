@@ -32,7 +32,7 @@ export const skillGroups = [
   },
   {
     title: 'Programming Languages',
-    items: ['Java', '', 'C'],
+    items: ['Java', 'C'],
   },
   {
     title: 'Databases',
