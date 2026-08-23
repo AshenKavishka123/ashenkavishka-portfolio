@@ -1,16 +1,114 @@
-# React + Vite
+# Ashen Kavishka — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive personal portfolio website built with React and Vite to showcase my professional profile, technical skills, experience, education, and software projects.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Coming soon
 
-## React Compiler
+## 👨‍💻 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio website represents my professional journey as an Information Technology undergraduate and software professional with interests and experience in:
 
-## Expanding the Oxlint configuration
+- Software Engineering
+- QA Automation
+- API Testing
+- Web Development
+- Software Quality Assurance
+- Modern Software Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The website is designed with a modern, responsive, and professional interface suitable for recruiters, employers, and professional networking.
+
+---
+
+## ✨ Features
+
+- Modern responsive design
+- Professional hero section
+- About Me section
+- Technical Skills section
+- Professional Experience section
+- Education section
+- Projects showcase
+- Contact section
+- Download CV
+- GitHub and LinkedIn integration
+- WhatsApp and email contact links
+- Smooth scrolling
+- Responsive mobile navigation
+- Interactive UI elements
+- Hover animations
+- Scroll animations
+- SEO-friendly structure
+- Accessible UI components
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- npm
+
+### Other Technologies
+
+- REST APIs
+- Responsive Web Design
+- API Testing
+- Automation Testing
+
+---
+
+## 📂 Project Structure
+
+```text
+ashen-portfolio/
+│
+├── public/
+│   ├── profile.jpg
+│   ├── cv.pdf
+│   ├── favicon.ico
+│   └── ...
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Button.jsx
+│   │   ├── ProjectCard.jsx
+│   │   └── SectionTitle.jsx
+│   │
+│   ├── sections/
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Education.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── data/
+│   │   └── portfolioData.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
